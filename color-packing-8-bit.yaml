@@ -1,9 +1,7 @@
 sources:
     mapzen:
         type: TopoJSON
-        url: https://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.topojson
-        url_params:
-            api_key: vector-tiles-_vxMzew
+        url: https://meetar.github.io/mapzen-tiles/vector/v1/256/all/{z}/{x}/{y}.topojson
 styles:
     custom:
         lighting: false
